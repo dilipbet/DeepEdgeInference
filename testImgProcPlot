@@ -9,7 +9,7 @@ img_tinted = img * [1, 0.95, 0.9]
 
 #resize image to 300*300 pixels
 
-img_tinted = imresize(img_tinted,(300, 300));
+img_tinted = imresize(img_tinted,(400, 400));
 
 # Show the original image
 plt.subplot(1, 2, 1)
