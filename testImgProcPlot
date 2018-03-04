@@ -7,7 +7,7 @@ print(img.dtype, img.size);
 
 img_tinted = img * [1, 0.95, 0.9]
 
-#resize image to 300*300 pixels
+#resize image to 400*400 pixels
 
 img_tinted = imresize(img_tinted,(400, 400));
 
